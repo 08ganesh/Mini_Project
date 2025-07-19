@@ -1,27 +1,25 @@
 # Mini_Project
-# 🧠 Extractive Text Summarization using LLMs and Hierarchical Positional Encoding
-
-> A Mini Project submitted in partial fulfillment of the requirements for CSE300 at SASTRA Deemed University (2024–25)
+#  Extractive Text Summarization using LLMs and Hierarchical Positional Encoding
 
 ---
 
-## 📘 Project Overview
+##  Project Overview
 
 This project presents a **semantic-driven extractive summarization framework** that improves the summarization of long-form documents by combining **Large Language Models (LLMs)** like **MPNet** with **Hierarchical Positional Encoding (HPE)**. It identifies the most relevant, coherent, and novel sentences from complex documents using structural parsing, semantic clustering, and multi-factor scoring.
 
 ---
 
-## 👨‍💻 Authors
+##  Authors
 
-- **Eggoni Ganesh** – Reg. No. 226003043  
-- **Gaddapara Manohar** – Reg. No. 226003047  
-- **Kamanuru Ajay Krishna** – Reg. No. 226003176  
+- **Eggoni Ganesh** 
+- **Gaddapara Manohar**
+- **Kamanuru Ajay Krishna**  
 
-**Guide**: *Smt. Hemamalini. S*, Assistant Professor II, Department of CSE, SRC – SASTRA Deemed University
+
 
 ---
 
-## 📌 Key Objectives
+##  Key Objectives
 
 - Enhance extractive summarization of complex documents using semantic embeddings.
 - Capture the document’s **hierarchical structure** through tree-based modeling.
@@ -30,7 +28,7 @@ This project presents a **semantic-driven extractive summarization framework** t
 
 ---
 
-## 🧱 System Architecture
+##  System Architecture
 
 The project follows an **8-stage pipeline**:
 
@@ -45,7 +43,7 @@ The project follows an **8-stage pipeline**:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language**: Python 3.8+
 - **Frameworks & Libraries**:  
@@ -61,7 +59,7 @@ The project follows an **8-stage pipeline**:
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 Summaries were evaluated using ROUGE scores:
 
@@ -75,7 +73,7 @@ Our model demonstrated **notable improvements** compared to LexRank and PEGASUS,
 
 ---
 
-## ✅ Strengths
+##  Strengths
 
 - Semantic sentence understanding with **MPNet embeddings**
 - Structure-aware summarization via **hierarchical trees**
@@ -85,7 +83,7 @@ Our model demonstrated **notable improvements** compared to LexRank and PEGASUS,
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - Requires **high computational resources** (GPU, RAM)
 - Purely extractive – lacks abstraction or paraphrasing
@@ -94,7 +92,7 @@ Our model demonstrated **notable improvements** compared to LexRank and PEGASUS,
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Integrate **abstractive summarization** for hybrid results
 - Use **smaller/faster models** for edge deployment
